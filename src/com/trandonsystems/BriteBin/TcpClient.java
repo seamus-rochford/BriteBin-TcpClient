@@ -37,7 +37,7 @@ public class TcpClient {
 			System.out.println(ioEx);
 		}
 
-		
+		// send message
 		try {
 			byte[] data = {(byte)0x01, // Message Type
 					(byte)0x28, // Bin Level
